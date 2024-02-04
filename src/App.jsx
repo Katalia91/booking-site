@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css';
+import React from 'react';
 
 function App() {
 	return (
@@ -8,7 +9,7 @@ function App() {
 				<p>coming soon</p>
 			</header>
 		</div>
-	)
+	);
 }
 
-export default App
+export default App;
