@@ -1,0 +1,39 @@
+body {
+	font-family: var(--font-main);
+	color: var(--text-color);
+	line-height: 1.5rem;
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		font-family: var(--font-secondary);
+		margin-top: 0;
+		line-height: 2.75rem;
+	}
+	h1 {
+		margin-bottom: 2rem;
+		font-size: var(--font-size-h1);
+		&.hero {
+			font-size: var(--font-size-hero);
+			margin-bottom: 2.75rem;
+		}
+	}
+	h2 {
+		margin-bottom: 2rem;
+	}
+	h3,
+	h4 {
+		margin-bottom: 1rem;
+	}
+	p {
+		margin-bottom: 2rem;
+		&.summary {
+			font-size: var(--font-size-summary);
+			line-height: 1.75rem;
+		}
+	}
+	.small {
+		font-size: var(--font-size-small);
+	}
+}

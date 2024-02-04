@@ -1,0 +1,26 @@
+:root {
+	// Colors
+	--dark-green: #005b42;
+	--sea-green: #00b39b;
+	--dark: #1a2a21;
+	--eggshell: #f3eada;
+	--orange: #ffa17a;
+
+	--primary: var(--dark-green);
+	--accent: var(--orange);
+	--text-color: var(--dark);
+
+	// Fonts
+	--font-main: 'Noto Sans', sans-serif;
+	--font-secondary: 'Lora', serif;
+
+	// Typography
+	--font-size: 1rem;
+	--font-size-summary: 1.25rem;
+	--font-size-hero: 3.75rem;
+	--font-size-h1: 2.5rem;
+	--font-size-h2: 2rem;
+	--font-size-h3: 1.5rem;
+	--font-size-h4: 1.25rem;
+	--font-size-small: 0.75rem;
+}
