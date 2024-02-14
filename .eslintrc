@@ -7,5 +7,23 @@
 			"error",
 			{ "extensions": [".jsx", ".tsx"] },
 		],
+		"import/extensions": [
+			"error",
+			"always",
+			{
+				"js": "never",
+				"jsx": "never",
+				"ts": "never",
+				"tsx": "never",
+			},
+		],
+	},
+	"settings": {
+		"import/resolver": {
+			"alias": {
+				"map": [["src", "./src"]],
+				"extensions": [".ts", ".tsx"],
+			},
+		},
 	},
 }
