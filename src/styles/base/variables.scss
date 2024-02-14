@@ -31,15 +31,3 @@
 // Breakpoints
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1024px;
-
-$breakpoints: (
-	'phone': (
-		max-width: calc(#{$breakpoint-tablet} - 1px),
-	),
-	'tablet': (
-		max-width: calc(#{$breakpoint-desktop} - 1px),
-	),
-	'desktop': (
-		min-width: #{$breakpoint-desktop},
-	),
-);
