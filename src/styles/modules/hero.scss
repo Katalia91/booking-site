@@ -1,0 +1,12 @@
+.hero-header {
+  background-image: linear-gradient(rgba(24, 24, 24, 0.5), rgba(0, 0, 0, 0.333)),
+    url("/images/beach-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: var(--light-grey);
+  text-align: center;
+  padding: 250px 0;
+  margin: 0 auto;
+  border-radius: 0 0 30px 30px;
+}

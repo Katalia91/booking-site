@@ -1,12 +1,20 @@
 .main-menu {
-	display: flex;
-	justify-content: space-between;
-	ul {
-		display: flex;
-		gap: 3rem;
-		padding: 0;
-		li {
-			list-style: none;
-		}
-	}
+  display: flex;
+  background-color: var(--dark);
+  font-size: var(--font-size-medium);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  ul {
+    display: flex;
+    gap: 3rem;
+    padding: 0;
+    li {
+      list-style: none;
+    }
+  }
+  a {
+    color: var(--light-grey);
+    text-decoration: none;
+  }
 }

@@ -1,13 +1,15 @@
-import React from 'react';
+import React from "react";
 
 interface HeroProps {
-	title: string;
+  title: string;
+  subtitle?: string;
 }
-function Hero({ title }: HeroProps) {
-	return (
-		<header className="hero">
-			<h1 className="hero">{title}</h1>
-		</header>
-	);
+function Hero({ title, subtitle }: HeroProps) {
+  return (
+    <header className="hero-header">
+      <h1 className="hero">{title}</h1>
+      <p>{subtitle}</p>
+    </header>
+  );
 }
 export default Hero;
