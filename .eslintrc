@@ -7,22 +7,14 @@
 			"error",
 			{ "extensions": [".jsx", ".tsx"] },
 		],
-		"import/extensions": [
-			"error",
-			"always",
-			{
-				"js": "never",
-				"jsx": "never",
-				"ts": "never",
-				"tsx": "never",
-			},
-		],
+
+		"comma-dangle": ["error", "always"],
 	},
 	"settings": {
 		"import/resolver": {
-			"alias": {
-				"map": [["src", "./src"]],
-				"extensions": [".ts", ".tsx"],
+			"node": {
+				"extensions": [".js", ".jsx", ".ts", ".tsx"],
+				"moduleDirectory": ["node_modules", "src"],
 			},
 		},
 	},

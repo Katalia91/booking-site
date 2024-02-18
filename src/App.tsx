@@ -1,11 +1,11 @@
-import './styles/index.scss';
+import 'src/styles/index.scss';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from './pages/About';
-import Layout from './pages/Layout';
-import Home from './pages/Home';
-import NoPage from './pages/NoPage';
-import Gallery from './pages/Gallery';
+import About from 'src/pages/About';
+import Layout from 'src/pages/Layout';
+import Home from 'src/pages/Home';
+import NoPage from 'src/pages/NoPage';
+import Gallery from 'src/pages/Gallery';
 
 function App() {
 	return (

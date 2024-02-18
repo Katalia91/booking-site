@@ -3,13 +3,15 @@ import React from 'react';
 function MainMenu() {
 	return (
 		<nav className="main-menu">
-			<div className="logo">Logo</div>
+			<a href="/">
+				<div className="logo">Logo</div>
+			</a>
 			<ul>
 				<li>
-					<a href="/">Gallery</a>
+					<a href="/gallery">Gallery</a>
 				</li>
 				<li>
-					<a href="/">Practical info</a>
+					<a href="/about">Practical info</a>
 				</li>
 			</ul>
 		</nav>
