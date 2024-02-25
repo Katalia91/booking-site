@@ -7,8 +7,10 @@ interface HeroProps {
 function Hero({ title, subtitle }: HeroProps) {
   return (
     <header className="hero-header">
-      <h1 className="hero">{title}</h1>
-      <p>{subtitle}</p>
+      <div className="hero-content">
+        <h1 className="hero">{title}</h1>
+        <p>{subtitle}</p>
+      </div>
     </header>
   );
 }
