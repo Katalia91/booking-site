@@ -13,8 +13,8 @@ function Home() {
   return (
     <>
       <Hero
-        title="Velkommen"
-        subtitle="Her kan du reservere huset i San Pedro del Sol"
+        title="Bienvenido a nuestra casa"
+        subtitle="Velkommen! Her kan du reservere huset vårt i San Pedro del Sol"
       />
       <div className="calendar-container">
         <main className="calendar-content">
@@ -26,19 +26,22 @@ function Home() {
           />
         </main>
       </div>
-      <div className="gallery">
-        <figure>
-          <img src="https://picsum.photos/id/17/680/380" alt="" />
-        </figure>
-        <figure>
-          <img src="https://picsum.photos/id/19/680/380" alt="" />
-        </figure>
-        <figure>
-          <img src="https://picsum.photos/id/25/680/380" alt="" />
-        </figure>
-        <figure>
-          <img src="https://picsum.photos/id/111/680/380" alt="" />
-        </figure>
+      <div className="gallery-container">
+        <h2>Galleri</h2>
+        <div className="gallery">
+          <figure>
+            <img src="https://picsum.photos/id/17/680/380" alt="" />
+          </figure>
+          <figure>
+            <img src="https://picsum.photos/id/19/680/380" alt="" />
+          </figure>
+          <figure>
+            <img src="https://picsum.photos/id/25/680/380" alt="" />
+          </figure>
+          <figure>
+            <img src="https://picsum.photos/id/111/680/380" alt="" />
+          </figure>
+        </div>
       </div>
     </>
   );

@@ -10,12 +10,15 @@ body {
     font-family: var(--font-primary);
     margin-top: 0;
     line-height: 120%;
+    font-weight: 400;
   }
   h1 {
     margin-bottom: 0.5rem;
     font-size: var(--font-size-h1);
     &.hero {
       font-size: var(--font-size-hero);
+      font-weight: 800;
+      letter-spacing: 0.5px;
     }
   }
   h2 {
