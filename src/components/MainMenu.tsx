@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function MainMenu() {
   return (
@@ -8,10 +9,10 @@ function MainMenu() {
       </a>
       <ul>
         <li>
-          <a href="/gallery">Gallery</a>
+          <NavLink to="/gallery">Gallery</NavLink>
         </li>
         <li>
-          <a href="/about">Practical info</a>
+          <NavLink to="/about">Practical info</NavLink>
         </li>
       </ul>
     </nav>
