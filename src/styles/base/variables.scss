@@ -1,18 +1,21 @@
 :root {
   // Colors
   --dark-green: #005b42;
-  --sea-green: #00b39b;
   --dark: #0c0c0a;
-  --eggshell: #f3eada;
   --light-grey: #e5e4e2;
   --orange: #ffa17a;
+  --yellow: #ecd073;
+  --dark-yellow: #ffd23f;
+  --green: #337357;
+  --purple: #7e4490;
+  --dark-purple: #5e1675;
 
   --primary: var(--dark-green);
   --accent: var(--orange);
   --text-color: var(--dark);
 
   // Fonts
-  --font-main: "Noto Sans", sans-serif;
+  --font-main: "Work Sans", sans-serif;
   --font-secondary: "Lora", serif;
 
   // Typography

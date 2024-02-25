@@ -1,7 +1,7 @@
 .main-menu {
   display: flex;
   background-color: var(--dark);
-  font-size: var(--font-size-medium);
+  font-size: var(--font-size-small);
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
@@ -16,5 +16,10 @@
   a {
     color: var(--light-grey);
     text-decoration: none;
+  }
+}
+@media (min-width: 768px) {
+  .main-menu {
+    font-size: var(--font-size-medium);
   }
 }
